@@ -3,8 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Projects1 from "./Projects1";
 import laptopImg from "../../Assets/about.png";
-import Testnet from "./Testnet";
-import Mainnet from "./Mainnet";
 
 function Projects() {
   return (
@@ -22,17 +20,7 @@ function Projects() {
         <h1 className="project-heading">
           Our Supported <strong className="purple">Projects </strong>
         </h1>
-
         <Projects1 />
-
-        <h1 className="project-heading">
-          <strong className="purple">Testnet</strong> Network
-        </h1>
-        <Testnet />
-        <h1 className="project-heading">
-          <strong className="purple">Mainnet</strong> Network
-        </h1>
-        <Mainnet />
       </Container>
     </Container>
   );
