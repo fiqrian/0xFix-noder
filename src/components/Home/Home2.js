@@ -16,7 +16,8 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> 0xFix
+              LET ME <span> INTRODUCE </span>{" "}
+              <h1 className="purple font1">0xfix</h1>
             </h1>
             <p className="home-about-body">
               <h1>Responsibilities of a Good Validator on a Blockchain</h1>
@@ -128,7 +129,8 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>Our Contact</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with 0xFix
+              Feel free to <span>connect </span>with{" "}
+              <h1 className="purple font1">0xfix</h1>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
